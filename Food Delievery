@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://127.0.0.1:3000/project%202/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./Food Delivery_files/___vscode_livepreview_injected_script"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+
+<link rel="stylesheet" href="./Food Delivery_files/style.css"></head>
+
+
+<body>
+    <header>
+        <h1>FOOD DELIVERY</h1>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:3000/project%202/index.html#">Home</a></li>
+                <li><a href="http://127.0.0.1:3000/project%202/index.html#">Menu</a></li>
+                <li><a href="http://127.0.0.1:3000/project%202/index.html#">About Us</a></li>
+                <li><a href="http://127.0.0.1:3000/project%202/index.html#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="featured">
+            <h2>Featured Dishes</h2>
+            <div class="dish">
+                <img src="./Food Delivery_files/burger-with-melted-cheese.webp" alt="Dish 1">
+                <h3>Dish 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptatibus autem laborum cum optio
+                    sunt commodi dolores quis, nihil voluptatum similique, fugit rerum accusamus?</p>
+            </div>
+            <div class="dish">
+                <img src="./Food Delivery_files/bread-village-carl-warner.webp" alt="Dish 2">
+                <h3>Dish 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, explicabo voluptatum
+                    pariatur placeat cum optio cumque dignissimos quasi aliquid eum odio ab veritatis adipisci.</p>
+            </div>
+        </section>
+        <section id="order">
+            <h2 class="place">Place Your Order</h2>
+            <form action="http://127.0.0.1:3000/project%202/order.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required="">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required="">
+                <label for="address">Delivery Address:</label>
+                <textarea id="address" name="address" required=""></textarea>
+                <button type="submit">Submit Order</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h1 class="headfoot">COME AND GIVE US PLEASURE TO SERVE</h1>
+        <p>© 2024 Food Delivery</p>
+        <p class="foot">Contact us- fooddelievery23@gmail.com</p>
+    </footer>
+
+
+</body></html>
